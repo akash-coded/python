@@ -12,4 +12,4 @@ def add(a, b):
 
 
 print(add.__doc__)
-help(add)
+# help(add)
