@@ -1,0 +1,18 @@
+{
+  "Olvar": {
+    "apples": 3,
+    "oranges": 0
+  },
+  "Francisco": {
+    "apples": 2,
+    "oranges": 3
+  },
+  "Kevin": {
+    "apples": 0,
+    "oranges": 7
+  },
+  "Ramalakshmi": {
+    "apples": 1,
+    "oranges": 2
+  }
+}
