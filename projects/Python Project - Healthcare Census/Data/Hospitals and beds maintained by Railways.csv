@@ -1,0 +1,28 @@
+Number of Hospitals and beds in Railways (as on 21/03/2018),,,
+S.No.,Zone / PU,Total No. of Hospitals,Total No. of Indoor Beds
+1,Central Railway,11,1164
+2,Eastern Railway,8,1587
+3,East central Railway,9,819
+4,East coast Railway,4,339
+5,Northern Railway,9,1101
+6,North Central Railway,5,586
+7,North East Railway,6,927
+8,North East Frontier Railway,10,1107
+9,North Western Railway,8,584
+10,Southern Railway,10,1131
+11,South Central Railway,7,714
+12,South Eastern Railway,6,1086
+13,South East Central Railway,5,250
+14,South Western Railway,3,300
+15,Western Railway,9,976
+16,West Central Railway,7,456
+17,Intergral Coach Factory,1,101
+18,Rail Coach Factory,1,60
+19,Chittaranjan Locomotive Works,1,197
+20,Diesal Locomotive Works,1,105
+21,Diesel Loco Modernisation Works,1,50
+22,Rail Wheel Factory,1,46
+23,Research Design and Standards Organization,1,30
+24,Metro/ Kolkata,1,30
+25,MCF/Raibareli,1,2
+26,Total,126,13748

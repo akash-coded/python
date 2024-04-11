@@ -1,0 +1,45 @@
+Srl no.,State / UT,Number of Hospitals,,,,Number of Beds,,,
+,,Govt.,Local Body,Others,Total,Govt.,Local Body,Others,Total
+-1,-2,-3,-4,-5,-6,-7,-8,-9,-10
+1,Andhra Pradesh,8,0,0,8,365,0,0,365
+2,Arunachal Pradesh,11,0,1,12,100,0,25,125
+3,Assam,4,0,0,4,205,0,0,205
+4,Bihar,8,0,0,8,950,0,0,950
+5,Chhattisgarh,7,0,8,15,370,0,470,840
+6,Delhi,4,0,1,5,390,0,210,600
+7,Goa,0,2,0,2,0,150,0,150
+8,Gujarat,35,29,0,64,1495,1763,0,3258
+9,Haryana,4,0,7,11,145,0,600,745
+10,Himachal Pradesh,34,0,0,34,710,0,0,710
+11,Jammu & Kashmir,2,0,0,2,75,0,0,75
+12,Jharkhand,1,4,0,5,50,300,0,350
+13,Karnataka,156,0,57,213,2455,0,7740,10195
+14,Kerala,162,0,0,162,4054,0,0,4054
+15,Madhya Pradesh,23,0,0,23,690,0,0,690
+16,Maharashtra,5,0,66,71,812,0,8024,8836
+17,Manipur,10,0,0,10,0,0,0,0
+18,Meghalaya,10,0,0,10,100,0,0,100
+19,Mizoram,2,0,0,2,100,0,0,100
+20,Nagaland,2,0,0,2,10,0,0,10
+21,Odisha,9,0,5,14,593,0,310,903
+22,Punjab,5,0,4,9,100,0,108,208
+23,Rajasthan,137,0,0,137,1391,0,0,1391
+24,Sikkim,1,0,0,1,10,0,0,10
+25,Tamil Nadu,293,0,0,293,2381,0,0,2381
+26,Tripura,4,0,0,4,60,0,0,60
+27,Uttar Pradesh,2315,0,1,2316,11361,0,100,11461
+28,Uttarakhand,404,0,1,405,2023,0,50,2073
+29,West Bengal,11,0,11,22,530,0,620,1150
+30,Andaman & Nicobar Islands,5,0,0,5,90,0,0,90
+31,Chandigarh,0,0,2,2,0,0,80,80
+32,Dadra & Nagar Haveli,0,0,0,0,0,0,0,0
+33,Daman & Diu,2,0,0,2,20,0,0,20
+34,Lakshdweep,0,0,0,0,0,0,0,0
+35,Puducherry,0,0,0,0,0,0,0,0
+36,Telangana,20,0,0,20,841,0,0,841
+,TOTAL (A),3694,35,164,3893,32476,2213,18337,53026
+"B. CGHS & Central
+ Government organizations",,50,0,0,50,2216,0,0,2216
+TOTAL (A+B),,3744,35,164,3943,34692,2213,18337,55242
+,,,,,,,,,
+Source: Ministry of AYUSH.,,,,,,,,,

@@ -1,0 +1,4 @@
+https://www.kaggle.com/datasets/danofer/india-census
+https://www.kaggle.com/datasets/dheerajmpai/hospitals-and-beds-in-india
+
+Datasets have been modified for learning purpose.

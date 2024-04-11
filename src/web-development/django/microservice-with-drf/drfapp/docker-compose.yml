@@ -1,0 +1,23 @@
+version: "3"
+volumes:
+  postgres:
+    driver: local
+services:
+  postgres:
+    image: postgres:12.0
+    environment:
+      - POSTGRES_NAME=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=mysecretpassword
+      - PGDATA=pgdata
+    volumes:
+      - postgres:/var/lib/postgresql/data/pgdata
+  drfapp:
+    build:
+      context: .
+    ports:
+      - "2323:2323"
+    volumes:
+      - .:/prj/drfapp
+    depends_on:
+      - postgres

@@ -5,7 +5,7 @@ while counter < max:
     counter += 1
 
 
-command = ''
-while command.lower() != 'quit':
-    command = input('> ')
+command = ""
+while command.lower().strip() != "quit":
+    command = input("> ")
     print(f"Echo: {command}")

@@ -1,0 +1,61 @@
+version: '2'
+
+services:
+  products_web:
+    build: ./products
+    command: bash -c "python3 ./products/manage.py makemigrations && python3 ./products/manage.py migrate && python3 ./products/manage.py runserver 0.0.0.0:8001"
+    volumes:
+      - .:/code
+    ports:
+      - 8001:8001
+    restart: always
+    depends_on:
+      - mongod
+    links:
+      - mongod
+
+  emails_web:
+    build: ./emails
+    command: bash -c "python3 ./emails/manage.py makemigrations && python3 ./emails/manage.py migrate && python3 ./emails/manage.py runserver 0.0.0.0:8002"
+    volumes:
+      - .:/code
+    ports:
+      - 8002:8002
+    restart: always
+    depends_on:
+      - mongod
+    links:
+      - mongod
+
+  orders_web:
+    build: ./orders
+    command: bash -c "python3 ./orders/manage.py makemigrations && python3 ./orders/manage.py migrate && python3 ./orders/manage.py runserver 0.0.0.0:8003"
+    volumes:
+      - .:/code
+    ports:
+      - 8003:8003
+    restart: always
+    depends_on:
+      - mongod
+    links:
+      - mongod
+
+  mongod:
+    restart: always
+    image: mongo:3.4.7
+    ports:
+      - 27017:27017
+    command: mongod
+
+  nginx:
+    build: ./web
+    ports:
+      - 80:80
+    links:
+      - products_web
+      - orders_web
+      - emails_web
+    depends_on:
+      - products_web
+      - orders_web
+      - emails_web
