@@ -1,0 +1,16 @@
+# Virtual environment
+venv/
+myenv/
+myenv2/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# SQLite database
+*.sqlite3
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
