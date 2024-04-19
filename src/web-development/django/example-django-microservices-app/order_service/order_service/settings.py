@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-%%hpe^f69*43-&2vw5c6o7y0kmkxrhk*nkog%35)(2$_!zca_x
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -123,3 +123,7 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+# Endpoints of other microservices to check if user and product exist
+USER_SERVICE_URL = "http://localhost:8000"
+PRODUCT_SERVICE_URL = "http://localhost:8001"
