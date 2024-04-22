@@ -1,0 +1,21 @@
+_format_version: "1.1"
+services:
+  - name: user-service
+    url: http://localhost:8000
+  - name: product-service
+    url: http://localhost:8001
+  - name: order-service
+    url: http://localhost:8002
+routes:
+  - name: user-route
+    service: user-service
+    paths:
+      - /users
+  - name: product-route
+    service: product-service
+    paths:
+      - /products
+  - name: order-route
+    service: order-service
+    paths:
+      - /orders
